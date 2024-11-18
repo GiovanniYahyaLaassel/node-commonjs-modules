@@ -6,7 +6,7 @@ const createName = require('./name.js');
 // Importo la funzione da hobbies 
 const createHobbies = require('./hobbies.js');
 
-function createPerson() {
+function createPerson(firstName, lastName, hobbyOne, hobbyTwo, hobbyThree) {
     
     // uso le funzioni importate
     const name = createName('firstName', 'lastName');
